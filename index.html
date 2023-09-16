@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Screen Recorder</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Screen Recorder</h1>
+        <div class="controls">
+            <button id="startButton">Start Recording</button>
+            <button id="stopButton" disabled>Stop Recording</button>
+            <button id="newRecordingButton" disabled>New Recording</button>
+            <label for="microphoneToggle">Microphone:</label>
+            <input type="checkbox" id="microphoneToggle">
+        </div>
+        <video id="recordedVideo" controls></video>
+    </div>
+    <script src="https://cdn.webrtc-experiment.com/RecordRTC.js"></script>
+
+  <center><h1>This does not record media audio</h1></center>
+    <script src="script.js"></script>
+</body>
+</html>
